@@ -32,8 +32,10 @@ function App() {
             </div>
 
             <div className="text-center">
-              <span className="text1">Não possuí conta?</span>
-              <a href="#" className="text2">Criar conta!</a>
+              <span className="text1">Don't have account?</span>
+            </div>
+            <div className='text-center'>
+              <a href="#" className="text2">Create account!</a>
             </div>
 
           </form>
