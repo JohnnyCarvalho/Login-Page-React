@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 *,
 *:before,
@@ -148,7 +149,14 @@
     width: 100%;
 }
 
-/*já voltamos aqui*/
+/**/
+.has-val + .focus-input::after {
+    top: -15px;
+}
+
+.has-val + .focus-input::before {
+    width: 100%;
+}
 
 
 /*Agora vamos estilizar a classe container do btn*/

@@ -1,8 +1,12 @@
 import jsxIMG from './assets/jsx.png';
 import './styles.css';
+import { useState } from 'react';
 
 
 function App() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
   return (
     <div className="container">
 
@@ -18,12 +22,20 @@ function App() {
             </span>
 
             <div className="wrap-input">
-              <input className='input' type="email"/>
+              <input className={email !== "" ? "has-val input" : "input"} // Condição adicionada para verificar se o email está preenchido
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              />
               <span className="focus-input" data-placeholder='Email'></span>
             </div>
 
             <div className="wrap-input">
-              <input className='input' type="password"/>
+              <input className={password !== "" ? "has-val input" : "input"} // Condição adicionada para verificar se o password está preenchido
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              />
               <span className="focus-input" data-placeholder='Password'></span>
             </div>
 
