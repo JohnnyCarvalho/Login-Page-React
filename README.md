@@ -14,9 +14,9 @@ Projeto desenvolvido em React com as tecnologias Java Script, HTML e CSS, sistem
 ------------------------------------------------------------------------------------------------------
 
 <h1 
-    align="center">Ilustração da aplicação funcionando no localhost3000
+    align="center">Ilustração da aplicação funcionando no localhost3000</h1>
 </h1>
-    <P>
-    <img align="center" alt="Login-Page-React" width="460" heigth="300" src="src/assets/Readme/LoginPage.gif">
+    <P align="center">
+    <img alt="Login-Page-React" width="460" heigth="300" src="src/assets/Readme/LoginPage.gif">
     </P>
 
