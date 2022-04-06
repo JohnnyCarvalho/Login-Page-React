@@ -154,6 +154,7 @@
 /*Essa parte a seguir faz o efeito de focus no placeholder*/
 .input:focus + .focus-input::after {
     top: -15px;
+    color: #21d4fd;
 }
 .input:focus + .focus-input::before {
     width: 100%;
